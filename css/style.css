@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
 *{
     margin: 0;
     padding:0;
@@ -9,7 +11,7 @@
     width: 270px;
     height: 570px;
     border-radius: 40px 40px 0 0;
-    background-color: rgb(36, 36, 36);
+    background: radial-gradient(#292929, #242424);
     margin: 70px auto;
     box-shadow: 0px 0px 2px 2px;
 }
@@ -20,7 +22,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    background-color: rgb(36, 36, 36);
+    background: radial-gradient(#292929, #242424);
     border-radius: 40px 40px 0px 0px;
 }
 
@@ -28,7 +30,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: hsl(0, 1%, 39%);
+    background: radial-gradient(#535252, #242323);
     margin-left: 110px;
     box-shadow: 0px 0px 1px 1px;
 }
@@ -38,8 +40,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: gray;
-    box-shadow: 0px 0px 3px 0px;
+    background: radial-gradient(#000000, #777676);
     margin-left: 10px;
     box-shadow: 0px 0px 1px 1px;
 }
@@ -90,7 +91,7 @@
     box-shadow: 0px 4px 2px 2px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(36, 36, 36);
+    background: linear-gradient(#242424, #181717);
     border-radius: 0px 0px 40px 40px;
 }
 
@@ -99,8 +100,41 @@
     height: 25px;
     border: 2px solid rgb(151, 151, 151);
     border-radius: 40px;
-    background-color: rgb(36, 36, 36);
+    background: radial-gradient(#333, #222, #111);
     cursor: pointer;
     box-shadow: 0px 0px 1px 1px;
 }
 
+.volumen{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 200px;
+    box-shadow: 2px 0px 1px 0px;
+    width: 3px;
+    height: 70px;
+    border-radius: 5px;
+    background: radial-gradient(#353535, #242424);
+}
+
+.apagado{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 330px;
+    box-shadow: 2px 0px 1px 0px;
+    width: 3px;
+    height: 35px;
+    border-radius: 5px;
+    background: radial-gradient(#353535, #242424);
+}
+
+p{
+    text-align: center;
+    padding-top: 40px;
+    color: wheat;
+    font-size: 8px;
+    font-family: 'Spartan', sans-serif;
+}
+
+p, a{
+    color: #ffffff; 
+}
