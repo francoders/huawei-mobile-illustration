@@ -11,6 +11,7 @@
     border-radius: 40px 40px 0 0;
     background-color: rgb(36, 36, 36);
     margin: 70px auto;
+    box-shadow: 0px 0px 2px 2px;
 }
 
 .box-up{
@@ -29,6 +30,7 @@
     border-radius: 50%;
     background: hsl(0, 1%, 39%);
     margin-left: 110px;
+    box-shadow: 0px 0px 1px 1px;
 }
 
 .camara{
@@ -39,6 +41,7 @@
     background: gray;
     box-shadow: 0px 0px 3px 0px;
     margin-left: 10px;
+    box-shadow: 0px 0px 1px 1px;
 }
 
 .messaje{
@@ -49,19 +52,19 @@
     background: white;
     box-shadow: 0px 0px 3px 0px;
     margin-left: 10px;
-    animation: blink-animation 2s steps(5, start) infinite;
-    -webkit-animation: blink-animation 2s steps(5, start) infinite;
+    animation: parpadear 2s steps(5, start) infinite;
+    -webkit-animation: parpadear 2s steps(5, start) infinite;
 }
 
 /**============== PARPADEO ==============*/
-@keyframes blink-animation {
+@keyframes parpadear {
     to {
       visibility: hidden;
     }
   }
-  @-webkit-keyframes blink-animation {
+  @-webkit-keyframes parpadear {
     to {
-      visibility: hidden;
+        visibility: hidden;
     }
 }
 
@@ -82,8 +85,9 @@
 
 .buttons-down{
     width: 100%;
-    height: 70px;
+    height: 60px;
     display: flex;
+    box-shadow: 0px 4px 2px 2px;
     justify-content: center;
     align-items: center;
     background-color: rgb(36, 36, 36);
@@ -97,5 +101,6 @@
     border-radius: 40px;
     background-color: rgb(36, 36, 36);
     cursor: pointer;
+    box-shadow: 0px 0px 1px 1px;
 }
 
